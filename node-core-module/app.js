@@ -47,7 +47,7 @@ const main = async () => {
 
   fs.writeFileSync("data/students.json", JSON.stringify(students));
 
-  console.log("Terimakasih sudah mengisi data.");
+  console.log(`Terimakasih ${nama} sudah mengisi data.`);
 
   rl.close();
 };
